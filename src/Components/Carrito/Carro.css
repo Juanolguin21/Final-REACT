@@ -94,6 +94,9 @@ main {
 	justify-content: space-between;
 	flex: 0.8;
 }
+.info-product h2 {
+	font-size: 1.3rem;
+}
 
 .titulo-producto-carrito {
 	font-size: 20px;
@@ -147,14 +150,14 @@ main {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 40px;
-	padding-left: 3.5rem;
+	padding-left: 2.8rem;
 	padding-top: 1rem;
 	padding-bottom: 2rem;
 }
 
 .item {
 	padding: 1rem;
-	background-color: #72b5f064;
+	background: linear-gradient(rgba(49, 203, 238, 0.716),rgba(54, 175, 250, 0.738) );
 	border-radius: 2rem;
 	width: 90%;
 	border:1px solid black;
@@ -255,7 +258,9 @@ main {
 		grid-template-columns: repeat(2, 1fr);
 		gap: 20px;
 	}
-
+	.info-product h2 {
+		font-size: 1.2rem;
+	}
 }
 @media screen and (max-width: 700px) {
 	main {
@@ -281,4 +286,12 @@ main {
 		font-weight: 300;
 		font-size: 10px;
 	}
+	.info-product h2 {
+		font-size: 1rem;
+	}
+	.price {
+		font-size: 15px;
+
+	}
+	
 }
