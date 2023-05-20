@@ -148,7 +148,7 @@ export const inventario =
     },
     {
       id: 14, 
-      nameProduct: "Quicksilver Niño 4/3 Everyday ChestZ", 
+      nameProduct: "Quicksilver Niño 4/3 CHZ", 
       price: 195000, 
       img: Project15, 
       quantity:1,
