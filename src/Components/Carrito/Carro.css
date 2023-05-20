@@ -71,7 +71,8 @@ main {
 	position: absolute;
 	top: 50px;
 	right: 0;
-
+	display: flex;
+	flex-direction: column;
 	background-color: #72b5f0;
 	width: 1000px;
 	z-index: 1;
@@ -256,6 +257,20 @@ main {
 		grid-template-columns: repeat(1, 1fr);
 	}
 	.container-cart-products{
-		width: 460px;
+		width: 440px;
+	}
+	.titulo-producto-carrito {
+		font-size: 10px;
+	}
+	
+	.precio-producto-carrito {
+		font-weight: 400;
+		font-size: 10px;
+		margin-left: 10px;
+	}
+	
+	.cantidad-producto-carrito {
+		font-weight: 300;
+		font-size: 10px;
 	}
 }
