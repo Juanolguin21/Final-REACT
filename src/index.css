@@ -216,7 +216,7 @@ header #HeaderDesc h1 {
     from(rgba(49, 203, 238, 0.933)),
     to(rgb(4, 70, 250))
   );
-  background: linear-gradient(to left, rgba(49, 203, 238, 0.933),rgb(4, 70, 250) );
+  background: linear-gradient(to left, rgba(183, 235, 247, 0.945),rgb(247, 248, 252) );
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
