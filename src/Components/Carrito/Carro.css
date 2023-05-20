@@ -239,7 +239,7 @@ main {
 	
 	.container-cart-products {
 		right: 0;
-		width: 700px;
+		width: 600px;
 		gap:30px;
 	}
 	.container-items {
@@ -249,7 +249,7 @@ main {
 	}
 
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
 	main {
 		width: 100%;
 	}
@@ -257,7 +257,7 @@ main {
 		grid-template-columns: repeat(1, 1fr);
 	}
 	.container-cart-products{
-		width: 440px;
+		width: 300px;
 	}
 	.titulo-producto-carrito {
 		font-size: 10px;
