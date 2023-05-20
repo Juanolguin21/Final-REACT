@@ -1,3 +1,4 @@
+
 import { inventario } from '../../inventario';
 
 
@@ -18,12 +19,14 @@ export const ProductList = ({
 			);
 			setTotal(total + product.price * product.quantity);
 			setCountProducts(countProducts + product.quantity);
+		
 			return setAllProducts([...products]);
 		}
-
+	
 		setTotal(total + product.price * product.quantity);
 		setCountProducts(countProducts + product.quantity);
 		setAllProducts([...allProducts, product]);
+		
 	};
 
 	return (
@@ -37,7 +40,7 @@ export const ProductList = ({
 						<h2>{product.nameProduct}</h2>
 						<p className='price'>${product.price}</p>
 						<p className='price'>{product.talle}</p>
-						<button onClick={() => onAddProduct(product)}>
+						<button onClick={() => onAddProduct(product) & alert(`PRODUCTO AGREGADO CON EXITO   🏄‍♂️ `)}>
 							AÑADIR AL CARRITO
 						</button>
 					</div>

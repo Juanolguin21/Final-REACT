@@ -249,17 +249,18 @@ span {
 
 header #HeaderDesc a {
   text-decoration: none;
-  color: white;
+  color: rgb(253, 252, 252);
   padding: 10px 20px;
   font-size: 1.5rem;
   border: 2px solid white;
   border-radius: 40px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  background: rgb(252, 67, 5);
 }
 
 header #HeaderDesc a:hover {
-  background: rgb(33, 93, 93);
+  background: rgb(27, 121, 251);
 }
 
 

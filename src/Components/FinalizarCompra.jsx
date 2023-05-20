@@ -9,18 +9,15 @@ const App = () => {
     };
   
     const handleAlert = () => {
-      // Mostrar el alert
+      // 
       alert(`Muchas gracias por realizar la Compra.
       
       Ya tenemos la informacion para enviarte tu/s traje de neoprene.
-      
       Te Solicitaremos los ultimos datos para Contactarnos Contigo.
 
       Te contactaremos a la brevedad a la casilla que nos Describas
-      
       Para Informarte los medios de Pago Acerca de Tu Traje   🏄‍♂️ 
       `);
-      // Llamar a la función después de aceptar el alert
       handleAlertAccept();
     };
 
