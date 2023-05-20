@@ -58,7 +58,7 @@ export const inventario =
     },
     {
       id: 4, 
-      nameProduct: "Rip Curl E-BOMB 5/4/3 c/capucha", 
+      nameProduct: "Rip Curl E-BOMB 5/4/3 c/c", 
       price: 32000, 
       img: Project5, 
       quantity:1,
@@ -67,7 +67,7 @@ export const inventario =
     },
     {
       id: 5, 
-      nameProduct: "QuickSilver 3/2 Everyday Seasons", 
+      nameProduct: "QuickSilver 3/2 EvDAYS", 
       price: 17000, 
       img: Project6, 
       quantity:1,
@@ -76,7 +76,7 @@ export const inventario =
     },
     {
       id: 6, 
-      nameProduct: "Rip Curl 4/3 DP Dama Backzip", 
+      nameProduct: "Rip Curl 4/3 Dama Backzip", 
       price: 120000, 
       img: Project7, 
       quantity:1,
@@ -121,7 +121,7 @@ export const inventario =
     },
     {
       id: 11, 
-      nameProduct: "Xcell 5/4/3 Phoenix ChestZip", 
+      nameProduct: "Xcell 5/4/3 Phoenix CHZ", 
       price: 195000, 
       img: Project12, 
       quantity:1,
@@ -139,7 +139,7 @@ export const inventario =
     },
     {
       id: 13, 
-      nameProduct: "Xcell Dama 4/3 Phoenix ChestZip", 
+      nameProduct: "Xcell Dama 4/3 Phoenix", 
       price: 195000, 
       img: Project14, 
       quantity:1,
