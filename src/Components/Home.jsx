@@ -16,8 +16,8 @@ function Home() {
               <p>
               Somos importadores de Trajes de Neoprene..  <span> Todas las marcas de vanguardia </span>
               </p>
-              <NavLink exact to="/start">
-                Contactanos.
+              <NavLink exact to="/project">
+                Nuestros Productos.
               </NavLink>
             </div>
           </div>
