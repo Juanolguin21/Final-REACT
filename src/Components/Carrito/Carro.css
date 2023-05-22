@@ -40,6 +40,12 @@ main {
 	height: 70%;
 	z-index: 1;
 }
+main h1 {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 2rem;
+	display: flex;
+	padding-top: 0.2rem;
+}
 
 .container-icon {
 	position:relative;
@@ -183,6 +189,7 @@ main {
 
 .item:hover img {
 	transform: scale(1.2);
+	cursor:pointer;
 }
 
 .info-product {
