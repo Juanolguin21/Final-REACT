@@ -40,7 +40,7 @@ export const ProductList = ({
 						<h2>{product.nameProduct}</h2>
 						<div className='data1'>
 						<p className='price'>💲{product.price}</p>
-						<p className='price'>{product.talle}</p>
+						<p className='price'>📏{product.talle}</p>
 						</div>
 						<button onClick={() => onAddProduct(product) & alert(`PRODUCTO AGREGADO CON EXITO   🏄‍♂️ `)}>
 							AÑADIR AL CARRITO
