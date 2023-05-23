@@ -38,8 +38,10 @@ export const ProductList = ({
 					</figure>
 					<div className='info-product'>
 						<h2>{product.nameProduct}</h2>
-						<p className='price'>${product.price}</p>
+						<div className='data1'>
+						<p className='price'>💲{product.price}</p>
 						<p className='price'>{product.talle}</p>
+						</div>
 						<button onClick={() => onAddProduct(product) & alert(`PRODUCTO AGREGADO CON EXITO   🏄‍♂️ `)}>
 							AÑADIR AL CARRITO
 						</button>
