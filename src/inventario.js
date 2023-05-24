@@ -59,7 +59,7 @@ export const inventario =
     {
       id: 4, 
       nameProduct: "Rip Curl E-BOMB 5/4/3 c/c", 
-      price: 32000, 
+      price: 200000, 
       img: Project5, 
       quantity:1,
       talle:"Talle M"
@@ -68,7 +68,7 @@ export const inventario =
     {
       id: 5, 
       nameProduct: "QuickSilver 3/2 EvDAYS", 
-      price: 17000, 
+      price: 170000, 
       img: Project6, 
       quantity:1,
       talle:"Talle XL"
