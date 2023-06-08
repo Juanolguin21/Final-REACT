@@ -36,14 +36,17 @@ main {
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: flex-start;
-	width: 95%;
+	width: 100%;
 	height: 70%;
 	z-index: 1;
+	background-color: #04951c;
+	border: 1px solid black;
 }
 main h1 {
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: 2rem;
 	display: flex;
+	color: rgb(1, 1, 1);
 	padding-top: 0.2rem;
 }
 
